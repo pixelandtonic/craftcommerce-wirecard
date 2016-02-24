@@ -1,0 +1,8 @@
+Wirecard\Element\AbstractAction:
+    properties:
+        id:
+            serialized_name: FunctionID
+            type: string
+        transaction:
+            serialized_name: CC_TRANSACTION
+            type: "Wirecard\\Element\\Transaction"

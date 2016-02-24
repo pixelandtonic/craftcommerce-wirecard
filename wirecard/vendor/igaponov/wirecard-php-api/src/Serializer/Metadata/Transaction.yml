@@ -1,0 +1,84 @@
+Wirecard\Element\Transaction:
+    exclusion_policy: ALL
+    xml_root_name: CC_TRANSACTION
+    properties:
+        mode:
+            expose: true
+            xml_attribute: true
+            type: string
+        id:
+            expose: true
+            serialized_name: TransactionID
+            type: string
+        commerceType:
+            expose: true
+            serialized_name: CommerceType
+            type: string
+        referenceId:
+            expose: true
+            serialized_name: ReferenceTransactionID
+            type: string
+        startTime:
+            expose: true
+            serialized_name: StartTime
+            type: DateTime<'Y-m-d H:i:s'>
+        endTime:
+            expose: true
+            serialized_name: EndTime
+            type: DateTime<'Y-m-d H:i:s'>
+        paymentGroupId:
+            expose: true
+            serialized_name: PaymentGroupID
+            type: string
+        guWid:
+            expose: true
+            serialized_name: GuWID
+            type: string
+        salesDate:
+            expose: true
+            serialized_name: SalesDate
+            type: DateTime<'Y-m-d'>
+        authorizationCode:
+            expose: true
+            serialized_name: AuthorizationCode
+            type: string
+        amount:
+            expose: true
+            serialized_name: Amount
+            type: Wirecard\Element\Amount
+        currency:
+            expose: true
+            serialized_name: Currency
+            type: string
+        countryCode:
+            expose: true
+            serialized_name: CountryCode
+            type: string
+        usage:
+            expose: true
+            serialized_name: Usage
+            type: string
+        recurringTransaction:
+            expose: true
+            serialized_name: RECURRING_TRANSACTION
+            type: Wirecard\Element\RecurringTransaction
+        creditCardData:
+            expose: true
+            serialized_name: CREDIT_CARD_DATA
+            type: Wirecard\Element\CreditCardData
+        trustCenterData:
+            expose: true
+            serialized_name: CORPTRUSTCENTER_DATA
+            type: Wirecard\Element\TrustCenterData
+        contactData:
+            expose: true
+            serialized_name: CONTACT_DATA
+            type: Wirecard\Element\ContactData
+        processingStatus:
+            expose: true
+            serialized_name: PROCESSING_STATUS
+            type: Wirecard\Element\ProcessingStatus
+        secure:
+            expose: true
+            serialized_name: THREE-D_SECURE
+            type: Wirecard\Element\Secure

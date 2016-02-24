@@ -1,0 +1,18 @@
+Wirecard\Element\CreditCardData:
+    xml_root_name: CREDIT_CARD_DATA
+    properties:
+        creditCardNumber:
+            serialized_name: CreditCardNumber
+            type: string
+        expirationYear:
+            serialized_name: ExpirationYear
+            type: string
+        expirationMonth:
+            serialized_name: ExpirationMonth
+            type: string
+        cardHolderName:
+            serialized_name: CardHolderName
+            type: string
+        secureCode:
+            serialized_name: CVC2
+            type: string

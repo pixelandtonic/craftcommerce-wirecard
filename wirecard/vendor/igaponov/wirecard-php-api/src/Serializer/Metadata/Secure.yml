@@ -1,0 +1,12 @@
+Wirecard\Element\Secure:
+    xml_root_name: THREE-D_SECURE
+    properties:
+        request:
+            serialized_name: PAReq
+            type: string
+        response:
+            serialized_name: PARes
+            type: string
+        url:
+            serialized_name: AcsUrl
+            type: string

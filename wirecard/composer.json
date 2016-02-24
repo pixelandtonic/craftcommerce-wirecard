@@ -1,0 +1,12 @@
+{
+    "name": "lh/wirecard",
+    "authors": [
+        {
+            "name": "Luke Holder",
+            "email": "lukemh@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Omnipay\\Ogone\\" : "src/" }
+    }
+}

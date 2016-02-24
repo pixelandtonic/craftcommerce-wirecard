@@ -1,0 +1,33 @@
+Wirecard\Element\Job:
+    xml_root_name: W_JOB
+    properties:
+        id:
+            serialized_name: JobID
+            type: string
+        signature:
+            serialized_name: BusinessCaseSignature
+            type: string
+        enrollmentCheck:
+            serialized_name: FNC_CC_ENROLLMENT_CHECK
+            type: Wirecard\Element\Action\EnrollmentCheck
+        purchase:
+            serialized_name: FNC_CC_PURCHASE
+            type: Wirecard\Element\Action\Purchase
+        bookBack:
+            serialized_name: FNC_CC_BOOKBACK
+            type: Wirecard\Element\Action\BookBack
+        query:
+            serialized_name: FNC_CC_QUERY
+            type: Wirecard\Element\Action\Query
+        preauthorization:
+            serialized_name: FNC_CC_PREAUTHORIZATION
+            type: Wirecard\Element\Action\Preauthorization
+        capture:
+            serialized_name: FNC_CC_CAPTURE
+            type: Wirecard\Element\Action\Capture
+        reversal:
+            serialized_name: FNC_CC_REVERSAL
+            type: Wirecard\Element\Action\Reversal
+        error:
+            serialized_name: ERROR
+            type: Wirecard\Element\Error

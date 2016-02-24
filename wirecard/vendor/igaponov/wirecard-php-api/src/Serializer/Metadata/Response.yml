@@ -1,0 +1,9 @@
+Wirecard\Element\Response:
+    xml_root_name: W_RESPONSE
+    properties:
+        job:
+            serialized_name: W_JOB
+            type: "Wirecard\\Element\\Job"
+        error:
+            serialized_name: ERROR
+            type: "Wirecard\\Element\\Error"

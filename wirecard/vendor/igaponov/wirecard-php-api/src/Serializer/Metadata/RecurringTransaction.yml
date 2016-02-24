@@ -1,0 +1,6 @@
+Wirecard\Element\RecurringTransaction:
+    xml_root_name: RECURRING_TRANSACTION
+    properties:
+        type:
+            serialized_name: Type
+            type: string

@@ -1,0 +1,9 @@
+Wirecard\Element\ContactData:
+    xml_root_name: CONTACT_DATA
+    properties:
+        ipAddress:
+            serialized_name: IPAddress
+            type: string
+        deviceIdentification:
+            serialized_name: DeviceIdentification
+            type: string

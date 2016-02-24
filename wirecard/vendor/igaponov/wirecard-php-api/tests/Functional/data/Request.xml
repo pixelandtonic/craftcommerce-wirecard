@@ -1,0 +1,54 @@
+<WIRECARD_BXML xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance">
+    <W_REQUEST>
+        <W_JOB>
+            <JobID>job 1</JobID>
+            <BusinessCaseSignature>0123456789ABCDEF</BusinessCaseSignature>
+            <FNC_CC_>
+                <FunctionID>authentication 1</FunctionID>
+                <CC_TRANSACTION mode="demo">
+                    <TransactionID>9457892347623478</TransactionID>
+                    <CommerceType>MOTO</CommerceType>
+                    <ReferenceTransactionID>FJQ845GFW4I7FGQ348FQ349Q34</ReferenceTransactionID>
+                    <StartTime>2005-12-12 00:00:00</StartTime>
+                    <EndTime>2005-12-13 00:00:00</EndTime>
+                    <PaymentGroupID>5FW9ERYG</PaymentGroupID>
+                    <GuWID>C328668112556109425394</GuWID>
+                    <SalesDate>2005-12-11</SalesDate>
+                    <AuthorizationCode>92381</AuthorizationCode>
+                    <Amount minorunits="2" action="validate">500</Amount>
+                    <Currency>EUR</Currency>
+                    <CountryCode>DE</CountryCode>
+                    <Usage>OrderNo-FT345S71 Thank you</Usage>
+                    <RECURRING_TRANSACTION>
+                        <Type>Initial</Type>
+                    </RECURRING_TRANSACTION>
+                    <CREDIT_CARD_DATA>
+                        <CreditCardNumber>4200000000000000</CreditCardNumber>
+                        <ExpirationYear>2005</ExpirationYear>
+                        <ExpirationMonth>01</ExpirationMonth>
+                        <CardHolderName>John Doe</CardHolderName>
+                        <CVC2>123</CVC2>
+                    </CREDIT_CARD_DATA>
+                    <CONTACT_DATA>
+                        <IPAddress>192.168.1.1</IPAddress>
+                        <DeviceIdentification>f-q04u9f</DeviceIdentification>
+                    </CONTACT_DATA>
+                    <CORPTRUSTCENTER_DATA>
+                        <ADDRESS>
+                            <FirstName>John</FirstName>
+                            <LastName>Doe</LastName>
+                            <Address1>550 South Winchester blvd.</Address1>
+                            <Address2>P.O. Box 850</Address2>
+                            <City>San Jose</City>
+                            <ZipCode>95128</ZipCode>
+                            <State>CA</State>
+                            <Country>US</Country>
+                            <Phone>+1(202)555-1234</Phone>
+                            <Email>John.Doe@email.com</Email>
+                        </ADDRESS>
+                    </CORPTRUSTCENTER_DATA>
+                </CC_TRANSACTION>
+            </FNC_CC_>
+        </W_JOB>
+    </W_REQUEST>
+</WIRECARD_BXML>

@@ -1,0 +1,2 @@
+Wirecard\Element\Action\Capture:
+    xml_root_name: FNC_CC_CAPTURE

@@ -1,0 +1,18 @@
+Wirecard\Element\Error:
+    xml_root_name: ERROR
+    properties:
+        type:
+            serialized_name: Type
+            type: string
+        number:
+            serialized_name: Number
+            type: string
+        message:
+            serialized_name: Message
+            type: string
+        advices:
+            serialized_name: Advice
+            type: array<string>
+            xml_list:
+                inline: true
+                entry_name: Advice

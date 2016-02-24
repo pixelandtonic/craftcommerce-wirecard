@@ -1,0 +1,6 @@
+Wirecard\Element\Request:
+    xml_root_name: W_REQUEST
+    properties:
+        job:
+            serialized_name: W_JOB
+            type: "Wirecard\\Element\\Job"

@@ -1,0 +1,11 @@
+Wirecard\Element\WireCard:
+    xml_root_name: WIRECARD_BXML
+    xml_namespaces:
+        xsi: http://www.w3.org/1999/XMLSchema-instance
+    properties:
+        request:
+            serialized_name: W_REQUEST
+            type: "Wirecard\\Element\\Request"
+        response:
+            serialized_name: W_RESPONSE
+            type: "Wirecard\\Element\\Response"

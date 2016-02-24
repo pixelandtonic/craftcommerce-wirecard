@@ -1,0 +1,27 @@
+<WIRECARD_BXML xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance">
+    <W_RESPONSE>
+        <W_JOB>
+            <JobID>job 1</JobID>
+            <BusinessCaseSignature>0123456789ABCDEF</BusinessCaseSignature>
+            <FNC_CC_>
+                <FunctionID>authentication 1</FunctionID>
+                <CC_TRANSACTION mode="demo">
+                    <TransactionID>9457892347623478</TransactionID>
+                    <PROCESSING_STATUS>
+                        <GuWID>C895978124540997772104</GuWID>
+                        <AuthorizationCode>8WERH84</AuthorizationCode>
+                        <StatusType>INFO</StatusType>
+                        <FunctionResult>NOK</FunctionResult>
+                        <ERROR>
+                            <Type>DATA_ERROR</Type>
+                            <Number>24998</Number>
+                            <Message>Demo-card or demo-mode transactions are not allowed without demo terminal mode.</Message>
+                            <Advice>Inspect your card number or remove attribute mode=''demo'' of tag 'CC_TRANSACTION'</Advice>
+                        </ERROR>
+                        <TimeStamp>2009-06-19 13:12:57</TimeStamp>
+                    </PROCESSING_STATUS>
+                </CC_TRANSACTION>
+            </FNC_CC_>
+        </W_JOB>
+    </W_RESPONSE>
+</WIRECARD_BXML>

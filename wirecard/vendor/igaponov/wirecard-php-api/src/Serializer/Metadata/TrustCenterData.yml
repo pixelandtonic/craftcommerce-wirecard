@@ -1,0 +1,6 @@
+Wirecard\Element\TrustCenterData:
+    xml_root_name: CORPTRUSTCENTER_DATA
+    properties:
+        billingAddress:
+            serialized_name: ADDRESS
+            type: "Wirecard\\Element\\BillingAddress"

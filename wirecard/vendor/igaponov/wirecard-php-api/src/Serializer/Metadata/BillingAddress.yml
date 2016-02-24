@@ -1,0 +1,33 @@
+Wirecard\Element\BillingAddress:
+    xml_root_name: ADDRESS
+    properties:
+        firstName:
+            serialized_name: FirstName
+            type: string
+        lastName:
+            serialized_name: LastName
+            type: string
+        address1:
+            serialized_name: Address1
+            type: string
+        address2:
+            serialized_name: Address2
+            type: string
+        city:
+            serialized_name: City
+            type: string
+        zipCode:
+            serialized_name: ZipCode
+            type: string
+        state:
+            serialized_name: State
+            type: string
+        country:
+            serialized_name: Country
+            type: string
+        phone:
+            serialized_name: Phone
+            type: string
+        email:
+            serialized_name: Email
+            type: string

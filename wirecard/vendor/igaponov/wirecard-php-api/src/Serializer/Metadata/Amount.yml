@@ -1,0 +1,13 @@
+Wirecard\Element\Amount:
+    xml_root_name: Amount
+    properties:
+        value:
+            xml_value: true
+            type: integer
+        units:
+            xml_attribute: true
+            serialized_name: minorunits
+            type: integer
+        action:
+            xml_attribute: true
+            type: string

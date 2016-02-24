@@ -1,0 +1,21 @@
+Wirecard\Element\ProcessingStatus:
+    xml_root_name: PROCESSING_STATUS
+    properties:
+        guWid:
+            serialized_name: GuWID
+            type: string
+        authorizationCode:
+            serialized_name: AuthorizationCode
+            type: string
+        statusType:
+            serialized_name: StatusType
+            type: string
+        functionResult:
+            serialized_name: FunctionResult
+            type: string
+        timeStamp:
+            serialized_name: TimeStamp
+            type: DateTime<'Y-m-d H:i:s'>
+        error:
+            serialized_name: ERROR
+            type: Wirecard\Element\Error

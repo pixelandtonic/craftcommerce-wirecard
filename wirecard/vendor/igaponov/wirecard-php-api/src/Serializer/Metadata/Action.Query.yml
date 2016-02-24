@@ -1,0 +1,7 @@
+Wirecard\Element\Action\Query:
+    xml_root_name: FNC_CC_QUERY
+    properties:
+        type:
+            read_only: true
+            xml_attribute: true
+            type: string
