@@ -6,7 +6,7 @@
  *
  * @author    Luke Holder
  * @copyright Copyright (c) 2016 Luke Holder
- * @link      http://lukeholder.io
+ * @link      http://lukeholder.com
  * @package   Wirecard
  * @since     0.1
  */
